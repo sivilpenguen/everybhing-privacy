@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EveryBhing - Gizlilik Politikası</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; }
+        h1 { color: #6a1b9a; border-bottom: 2px solid #6a1b9a; padding-bottom: 10px; }
+        h2 { color: #8e24aa; margin-top: 30px; }
+        .highlight { color: #6a1b9a; font-weight: bold; }
+        footer { margin-top: 50px; font-size: 0.9em; color: #777; border-top: 1px solid #ddd; padding-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>EveryBhing Gizlilik Politikası</h1>
+    <p>Son Güncelleme: 27 Nisan 2026</p>
+
+    <p><strong>EveryBhing</strong> ("Uygulama"), kullanıcı gizliliğini temel alan bir <strong>"Kişisel İşletim Sistemi"</strong> vizyonuyla geliştirilmiştir[cite: 127]. Bu politika, verilerinizin nasıl işlendiğini ve korunduğunu açıklamaktadır.</p>
+
+    <h2>1. Veri Saklama ve Güvenlik (Offline-First)</h2>
+    <p>EveryBhing, <span class="highlight">Offline-first</span> yaklaşımını benimser[cite: 24]. Notlarınız (BigNotes), şifreleriniz (Vault), hedefleriniz ve kişisel ayarlarınız öncelikle cihazınızın yerel hafızasında (<strong>AsyncStorage</strong>) şifreli olarak saklanır[cite: 59, 115]. Bu veriler, kullanıcının açık rızası veya senkronizasyon talebi olmadan sunucularımıza iletilmez.</p>
+
+    <h2>2. Toplanan Veriler ve Kullanım Amaçları</h2>
+    <ul>
+        <li><strong>Hassas Bilgiler:</strong> Şifre Kasası modülünde sakladığınız veriler sadece cihazınızda şifrelenmiş olarak tutulur; EveryBhing ekibi bu verilere erişemez[cite: 5, 61].</li>
+        <li><strong>Konum Verileri:</strong> PinBoard ve FeelSo modüllerinde anılarınızı haritalandırmak için konum erişimi istenir. Bu veriler sadece uygulama fonksiyonelliği için kullanılır[cite: 6, 93].</li>
+        <li><strong>İletişim Verileri:</strong> Chat ve InBox modüllerinde mesaj iletimi ve profil senkronizasyonu için e-posta adresiniz ve Cihaz ID'niz <strong>Firebase Firestore</strong> üzerinden güvenli bir şekilde işlenir[cite: 58, 600].</li>
+        <li><strong>Medya ve Ses:</strong> BigNotes ve ArtistBob modülleri için kamera, fotoğraf galerisi ve mikrofon erişimi tamamen kullanıcı kontrolündedir[cite: 8, 60].</li>
+    </ul>
+
+    <h2>3. Biyometrik Veriler (Face ID / Parmak İzi)</h2>
+    <p>Uygulama içi güvenlik (PIN Kilidi) ve Şifre Kasası erişimi için kullanılan biyometrik veriler, tamamen işletim sisteminin (iOS/Android) güvenli katmanında işlenir. <span class="highlight">EveryBhing hiçbir koşulda biyometrik verilerinizi toplamaz, saklamaz veya paylaşmaz</span>[cite: 15, 45, 1159].</p>
+
+    <h2>4. Veri Paylaşımı ve Üçüncü Taraflar</h2>
+    <p>Verileriniz reklam amaçlı olarak üçüncü taraflarla <strong>paylaşılmaz veya satılmaz</strong>[cite: 18, 48]. Altyapı sağlayıcısı olarak Firebase (Google) servisleri kullanılmaktadır ve veriler aktarım sırasında HTTPS protokolü ile şifrelenir[cite: 19, 506].</p>
+
+    <h2>5. Kullanıcı Hakları ve Veri Silme</h2>
+    <p>Kullanıcılar diledikleri zaman uygulama ayarları üzerinden veya bize ulaşarak hesaplarını ve Firebase üzerindeki verilerini kalıcı olarak sildirme hakkına sahiptir[cite: 37, 48].</p>
+
+    <footer>
+        <p>İletişim: [E-POSTA ADRESİNİZ]</p>
+        <p>EveryBhing - Your Personal Operating System</p>
+    </footer>
+
+</body>
+</html>
